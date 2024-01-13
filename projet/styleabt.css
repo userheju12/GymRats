@@ -1,0 +1,189 @@
+ /* #################### html styling elements ############### */
+
+ :root{
+    font-size: 62.5%;
+}
+ul li{
+    list-style: none;
+    
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p, li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.07;
+}
+
+i{
+    cursor: pointer;
+}
+
+h1, h2, h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.10em;
+    font-weight: 500;
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ################### navbar styling#################### */
+.navbar{
+    padding: 0.5rem;
+    background-color: #263238;
+
+}
+   
+.navbar .logo{
+    font-size: xx-large;
+    letter-spacing: 0.2em;
+    float: left;
+    color: #f4f4f4;
+}
+.navbar .nav-items{
+    float: right;
+   padding: 30px;
+   font-weight: bold;
+}
+.navbar::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+
+}
+.navbar a:link,
+.navbar a:visited{
+    color:white;
+}
+.navbar a{
+    padding-bottom: 0.3rem;
+    margin: 0 auto;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #ee4758;
+}
+
+/* ######################## about page styling ####################### */
+
+.about{
+    padding: 5rem;
+}
+
+.about-heading{
+    border-bottom: 5px solid #e63946;
+    letter-spacing: 0.2em;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-wrap{
+    margin-top: 2rem;
+}
+
+.about-wrap .left{
+    float: left;
+    width: 50%;
+    text-align:center;
+}
+
+.about-wrap .right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.about-wrap::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+ .about-wrap li::before{
+     content:'\2713';
+     color: #e63946;
+     padding-right: 1rem;
+ }
+ 
+ .best{
+     letter-spacing: 0.3em;
+     font-weight: 500;
+     border-bottom: 4px solid #e63946;
+     margin-top: 1rem;
+     width: 240px;
+ }
+
+
+ .banner-style{
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+    color: #f4f4f4;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+    margin-top: 3rem;
+    border-radius: 100px;
+   
+ }
+ .banner-left{
+    float: left;
+    width: 100%;
+    padding: 1rem;
+ }
+
+ .banner-right{
+    float: right;
+    width: 45%;
+    text-align: right;
+    display: inline-block;
+    padding: 1.5rem; 
+ }
+
+ .cta-line{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5rem;
+ }
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 4px solid white;
+    padding: 0.3em 2.5em;
+    letter-spacing: 0.7rem;
+    color: #f4f4f4;
+    border-radius: 100px;
+}
+.btn-cta:hover{
+    color: #263238;
+    border: 4px solid #ddd;
+    background: #ddd;
+
+}
+
+ .banner-style::after{
+    content: '';
+    display: block;
+    clear: both;
+ }
+
+ /* ########################## footer styling #####################3 */
+
+.footer{
+    background-color: #263238;
+    color:#f4f4f4;
+    padding: 0rem;
+    text-align: center;
+}
+
+.social-media-links i{
+    margin: 2rem;
+    cursor: pointer;
+}
